@@ -1,0 +1,84 @@
+.container{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.pad{
+    padding-right: 3px;
+}
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+}
+.add{
+    background-color: rgb(25, 180, 25);
+    color: black;
+}
+.exc{
+    color: rgb(100, 0, 0);
+}
+.conc{
+    color: rgb(0, 138, 0);
+}
+li{
+    border-radius: 5px;
+    border: solid black;
+    border-width: 2px;
+}
+.prior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.alt{
+    background-color: #FF0000;
+    height: 30px;
+    width: 50px;
+}
+.med{
+    background-color: #FF4500;
+    height: 30px;
+    width: 55px;
+}
+.bax{
+     background-color: #32CD32;
+     height: 30px;
+     width: 50px;
+}
+.pend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+hr{
+    border: solid black;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: black;
+}
